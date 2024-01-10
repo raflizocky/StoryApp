@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StoryApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_200</item>
+        <item name="colorSecondaryVariant">@color/pink_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
