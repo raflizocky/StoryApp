@@ -4,7 +4,7 @@
 [![Gradle](https://img.shields.io/badge/Gradle-8.0-blue?logo=gradle)](https://gradle.org/)
 [![OpenJDK](https://img.shields.io/badge/OpenJDK-17%20GA-orange?logo=openjdk)](https://openjdk.java.net/projects/jdk17/)
 
-The application is built by implementing the [Dicoding Story REST API](https://story-api.dicoding.dev/v1/). The components and libraries utilized in this application follow intermediate Android concepts such as Advanced UI, Geo Location, and Media. Feel free to enhance this repository by submitting pull requests that introduce new features or showcase library usage. Your support, whether through starring or forking this repository, is greatly appreciated!
+StoryApp is an Android application designed for users to store and share their stories using the [Dicoding Story REST API](https://story-api.dicoding.dev/v1/). It incorporates features such as user login and registration, adding personal stories, and displaying the locations on maps where others have uploaded their stories. The app is built using intermediate/advanced Android components and libraries, including animations, geolocation, and media functionalities. For a comprehensive understanding of the components and libraries used, refer to the code.
 
 ---
 
@@ -51,3 +51,9 @@ Download and install beta version [here](https://github.com/raflizocky/StoryApp/
 <p align="center">
    soon
 </p>
+
+## Pull Requests
+Feel free to contribute to this repository by creating pull requests to add new features or demonstrate library usage.
+
+## Support Me
+> Just **star** or **fork** this repository and follow my GitHub. Your support means a lot!
