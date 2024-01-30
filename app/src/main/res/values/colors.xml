@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="navy">#2D3D4F</color>
+    <color name="pink_500">#D81B60</color>
+    <color name="pink_200">#FF8FAF</color>
+    <color name="orange">#ED7D31</color>
+    <color name="pink_700">#c2185b</color>
+
+    <!--  AppBar  -->
+    <color name="light_primary">#A6B1E1</color>
+    <color name="light_primary_variant">#FF9800</color>
+    <color name="light_on_primary">#A6E3E9</color>
+
+    <color name="dark_primary">#393E46</color>
+    <color name="dark_primary_variant">#252A34</color>
+    <color name="dark_on_primary">#112D4E</color>
+</resources>

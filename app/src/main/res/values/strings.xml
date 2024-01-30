@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="signup">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">An application that provides a place for you to save your stories. </string>
+    <string name="title_welcome_page">Story App</string>
+    <string name="title_signup_page">Fill in the data required to create a new account.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Please fill in the data first before starting.</string>
+    <string name="title_login_page">Who are you?</string>
+    <string name="name">Name</string>
+    <string name="logout">Logout</string>
+    <string name="description">description</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="empty_image_warning">Please enter the image file first.</string>
+    <string name="creator">Made by Rafli Zocky Leonard</string>
+    <string name="image_content_description">A book picture</string>
+    <string name="photo">photo</string>
+    <string name="camera_button">click to capture image</string>
+    <string name="camera_view">click to change view</string>
+    <string name="story_image">image of the story</string>
+    <string name="Login_logo">Login logo</string>
+    <string name="fab_add_Story">floating action button to upload story</string>
+    <string name="register_logo">register logo</string>
+    <string name="list_picture">a picture</string>
+    <string name="app_version">App version: v1.0.0</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps">Google Maps</string>
+    <string name="password_error">The password must not be less than 8 characters</string>
+    <string name="email_error">make sure there is @gmail.com</string>
+</resources>
