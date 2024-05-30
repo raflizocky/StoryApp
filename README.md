@@ -56,7 +56,7 @@ If you'd like to contribute, please fork the repository and make changes as you'
 
 ### Our Contributors ✨
 
-<a href="https://github.com/raflizocky/github-app/graphs/contributors">
+<a href="https://github.com/raflizocky/StoryApp/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=raflizocky/StoryApp" />
 </a>
 
