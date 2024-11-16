@@ -1,66 +1,55 @@
 # Story App
-Story App is an Android application designed to help users save their stories and explore others' narratives. Build with [Android Studio](https://developer.android.com/studio).
+
+**Story App** is an Android app for saving personal stories and exploring others' narratives.
+
+## Demo
+
+<video src="https://github.com/user-attachments/assets/01bcd125-c391-4c5d-b03a-7f81e9c79230"></video>
 
 ## Features
-- **Authentication:** Secure login, instant password error feedback, and convenient logout option
-- **List Story:** Displays a list of personal and others' stories with REST API integration
-- **Add Story:** Adds a new story accessible from the list of stories with various options
-- **Animation:** Includes animations for a dynamic user experience
-- **Google Maps:** Utilizes Google Maps to show the location where other users upload their stories
-- **Paging List:** Implements paging for an infinite scroll experience
-- **Testing:** Incorporates testing to ensure the success of feature flows in the application
 
-## Demo 
-![Story App GIF](https://github.com/raflizocky/StoryApp/blob/main/image/story-app.gif)
+- User login and registration. 
+- Add and view personal stories. 
+- Animations and infinite scrolling. 
+- Explore story locations on Google Maps shared by other users.
 
-## Tech Stack
-- [Kotlin](https://kotlinlang.org/) – language
-- [MVVM](https://www.youtube.com/watch?v=FrteWKKVyzI) – architectural pattern
-- [Retrofit](https://square.github.io/retrofit/) - networking (API)
-- [Room](https://developer.android.com/training/data-storage/room) - database
-- [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) - data storage
-- [Animation](https://developer.android.com/reference/android/view/animation/Animation) - animation library
-- [Service](https://developer.android.com/reference/android/app/Service.html) - background handling
-- [Media](https://medium.com/developer-student-clubs/android-kotlin-camera-using-gallery-ff8591c26c3e) - media handling
-- [Geo Location](https://developer.android.com/develop/sensors-and-location/location) - geolocation services
-- [Advanced Testing](https://developer.android.com/studio/test/) - testing framework
+## Download
 
-## Getting Started
-### Prerequisites
-Here's what you need to be able to run GitHub App:
-- Android Studio (https://developer.android.com/studio/install)
-- Android Device/Emulator (I use Devices, if [Emulator](https://developer.android.com/studio/run/emulator))
-- Gradle (https://gradle.org/releases/)
-- JDK (I use [OpenJDK](https://openjdk.org/), if [OracleJDK](https://www.oracle.com/java/technologies/downloads/))
-- Dicoding Story REST API (https://story-api.dicoding.dev/v1/)
+- Updated at: 2024-11-16
+- Min. Android version: Android 5.0 Lollipop (API level 21)
+- Download: [APK](https://github.com/raflizocky/StoryApp/releases)
 
-### 1. Clone the repository
-```shell
-https://github.com/raflizocky/StoryApp.git
+## Resources Used
+
+- API: [Dicoding Story API](https://story-api.dicoding.dev/v1/), [Google Maps API](https://console.developers.google.com/flows/enableapi?apiid=maps-android-backend.googleapis.com&keyType=CLIENT_SIDE_ANDROID)
+
+## Building
+
+To build this project, you need the latest stable of [Android Studio](https://developer.android.com/studio).
+
+1. Clone the project and open in Android Studio.
+2. Use your own `API_KEY` for Google Maps. 
+3. Sync project with Gradle then Run `app`.
+
+## License
 ```
+Copyright (c) 2024 Rafli Zocky Leonard
 
-### 2. Configure the variables in `local.properties`
-| Variable | Value |
-|---|---|
-| sdk_dir | < Your sdk location > |
-| BASE_URL | < [Dicoding Story REST API](https://docs.github.com/en/rest?apiVersion=2022-11-28) > |
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### 3. Run the app
-Fill in the necessary details in the ```local.properties``` file, then [run the app](https://developer.android.com/studio/run).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Contributing
-
-Story App is an Android project and welcomes contributions from the community.
-
-If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
-
-### Our Contributors ✨
-
-<a href="https://github.com/raflizocky/StoryApp/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=raflizocky/StoryApp" />
-</a>
-
-## Inspiration
-
-- [Android Developer guides](https://developer.android.com/guide) -  Reference materials and documentation for Android app development
-- [Belajar Pengembangan Aplikasi Android Intermediate](https://www.dicoding.com/academies/352) - Android Application Intermediate Course
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
