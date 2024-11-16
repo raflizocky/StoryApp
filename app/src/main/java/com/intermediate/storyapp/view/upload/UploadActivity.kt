@@ -34,33 +34,12 @@ class UploadActivity : AppCompatActivity() {
     private lateinit var userPreference: UserPreference
     private var currentImageUri: Uri? = null
 
-    private val requestPermissionLauncher =
-        registerForActivityResult(
-            ActivityResultContracts.RequestPermission()
-        ) { isGranted: Boolean ->
-            if (isGranted) {
-                Toast.makeText(this, "Permission request granted", Toast.LENGTH_LONG).show()
-            } else {
-                Toast.makeText(this, "Permission request denied", Toast.LENGTH_LONG).show()
-            }
-        }
-
-    private fun allPermissionsGranted() =
-        ContextCompat.checkSelfPermission(
-            this,
-            REQUIRED_PERMISSION
-        ) == PackageManager.PERMISSION_GRANTED
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityUploadBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         userPreference = UserPreference.getInstance(this.dataStore)
-
-        if (!allPermissionsGranted()) {
-            requestPermissionLauncher.launch(REQUIRED_PERMISSION)
-        }
 
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraButton.setOnClickListener { startCamera() }
