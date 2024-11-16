@@ -49,9 +49,11 @@ class UploadActivity : AppCompatActivity() {
 
         userPreference = UserPreference.getInstance(this.dataStore)
 
-        savedInstanceState?.let {
-            currentImageUri = Uri.parse(it.getString(EXTRA_IMAGE_URI))
+        savedInstanceState?.getString(EXTRA_IMAGE_URI)?.let {
+            currentImageUri = Uri.parse(it)
             showImage()
+        } ?: run {
+            binding.previewImageView.setImageResource(R.drawable.ic_place_holder)
         }
 
         binding.galleryButton.setOnClickListener { startGallery() }
