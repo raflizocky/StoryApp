@@ -34,12 +34,25 @@ class UploadActivity : AppCompatActivity() {
     private lateinit var userPreference: UserPreference
     private var currentImageUri: Uri? = null
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        // Save the image URI
+        currentImageUri?.let {
+            outState.putString(EXTRA_IMAGE_URI, it.toString())
+        }
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityUploadBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         userPreference = UserPreference.getInstance(this.dataStore)
+
+        savedInstanceState?.let {
+            currentImageUri = Uri.parse(it.getString(EXTRA_IMAGE_URI))
+            showImage()
+        }
 
         binding.galleryButton.setOnClickListener { startGallery() }
         binding.cameraButton.setOnClickListener { startCamera() }
@@ -135,6 +148,6 @@ class UploadActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val REQUIRED_PERMISSION = Manifest.permission.CAMERA
+        private const val EXTRA_IMAGE_URI = "image_uri"
     }
 }
