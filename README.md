@@ -1,21 +1,16 @@
-# Story App
-
-**Story App** is an Android app for saving personal stories and exploring others' narratives.
-
 ## Demo
 
 <video src="https://github.com/user-attachments/assets/01bcd125-c391-4c5d-b03a-7f81e9c79230"></video>
 
 ## Features
 
-- User login and registration. 
-- Add and view personal stories. 
-- Animations and infinite scrolling. 
-- Explore story locations on Google Maps shared by other users.
+- User login and registration
+- Add and view personal stories
+- Animations and infinite scrolling
+- Explore story locations on Google Maps shared by other users
 
 ## Download
 
-- Updated at: 2024-11-16
 - Min. Android version: Android 5.0 Lollipop (API level 21)
 - Download: [APK](https://github.com/raflizocky/StoryApp/releases)
 
@@ -25,31 +20,20 @@
 
 ## Building
 
-To build this project, you need the latest stable of [Android Studio](https://developer.android.com/studio).
+To build this project, you need at least [Android Studio](https://developer.android.com/studio) Iguana or a later stable version.
 
-1. Clone the project and open in Android Studio.
+1. Clone the project and open it in Android Studio.  
 2. Use your own `API_KEY` for Google Maps. 
-3. Sync project with Gradle then Run `app`.
+2. Sync the project with Gradle, then run the app.  
+
+## Contributing
+
+If you encounter any issues or would like to contribute to the project, feel free to:
+
+-   Report any [issues](https://github.com/raflizocky/StoryApp/issues)
+-   Submit a [pull request](https://github.com/raflizocky/StoryApp/pulls)
+-   Participate in [discussions](https://github.com/raflizocky/StoryApp/discussions) for any questions, feedback, or suggestions
 
 ## License
-```
-Copyright (c) 2024 Rafli Zocky Leonard
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+Code released under the [MIT License](https://github.com/raflizocky/StoryApp/blob/main/LICENSE).
